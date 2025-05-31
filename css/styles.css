@@ -1,3 +1,37 @@
 img {
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .left-side, .right-side {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+/* Footer y navbar responsive */
+@media (max-width: 576px) {
+  .footer-nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .footer-contact p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    text-align: right;
+  }
+}
